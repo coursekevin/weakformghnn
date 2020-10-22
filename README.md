@@ -1,2 +1,2 @@
-# weakformghnns
+# weakformghnn
 Code coming soon!
