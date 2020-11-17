@@ -20,7 +20,7 @@ Please cite our paper if you find this code useful in your research. The bibliog
   year={2020}
 }
 ```
-Our experiments make heavy use of Chen et. al's [torchdiffeq package](https://github.com/rtqichen/torchdiffeq) [2]. 
+Our experiments make heavy use of Chen *et. al's* [torchdiffeq package](https://github.com/rtqichen/torchdiffeq) [2] and we use the rectified Huber unit from Kolter *et. al* [3]. 
 
 ---
 
@@ -47,3 +47,5 @@ This library provides **three** main components:
 [1] Kevin L. Course, Trefor W. Evans, Prasanth B. Nair. "Weak Form Generalized Hamiltonian Learning." Advances in Neural Information Processing Systems. 2020.
 
 [2] Ricky T. Q. Chen, Yulia Rubanova, Jesse Bettencourt, David Duvenaud. "Neural Ordinary Differential Equations." Advances in Neural Information Processing Systems. 2018.
+
+[3] J. Z. Kolter and G. Manek. “Learning Stable Deep Dynamics Models”. In: Advances in Neural Information Processing Systems 32. Ed. by H. Wallach, H. Larochelle, A. Beygelzimer, F. d. Alché-Buc, E. Fox, and R. Garnett. Curran Associates, Inc., 2019, pp. 11126–11134.
