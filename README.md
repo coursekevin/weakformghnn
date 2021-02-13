@@ -1,5 +1,5 @@
 # Weak Form Generalized Hamiltonian Learning
-This library provides a PyTorch implementation for performing Weak Form Generalized Hamiltonian Learning. This code accompanies this [Neurips2020 paper](https://papers.nips.cc/paper/2020/file/d93c96e6a23fff65b91b900aaa541998-Paper.pdf) [1] by Kevin L. Course, Trefor W. Evans, and Prasanth B. Nair.
+This library provides a PyTorch implementation for performing Weak Form Generalized Hamiltonian Learning. This code accompanies this [Neurips2020 paper](https://proceedings.neurips.cc/paper/2020/file/d93c96e6a23fff65b91b900aaa541998-Paper.pdf) [1] by Kevin L. Course, Trefor W. Evans, and Prasanth B. Nair.
 
 As everything is written in PyTorch, all algorithms provide full GPU support. 
 
@@ -12,12 +12,16 @@ As everything is written in PyTorch, all algorithms provide full GPU support.
 
 Please cite our paper if you find this code useful in your research. The bibliographic information for the paper is,
 ```bash
-@article{course2020weak,
-  title={Weak Form Generalized Hamiltonian Learning},
-  author={Course, Kevin L and Evans, Trefor W and Nair, Prasanth B},
-  journal={Advances in Neural Information Processing Systems},
-  volume={33},
-  year={2020}
+@inproceedings{course_wfghnn_2020,
+ author = {Course, Kevin and Evans, Trefor and Nair, Prasanth},
+ booktitle = {Advances in Neural Information Processing Systems},
+ editor = {H. Larochelle and M. Ranzato and R. Hadsell and M. F. Balcan and H. Lin},
+ pages = {18716--18726},
+ publisher = {Curran Associates, Inc.},
+ title = {Weak Form Generalized Hamiltonian Learning},
+ url = {https://proceedings.neurips.cc/paper/2020/file/d93c96e6a23fff65b91b900aaa541998-Paper.pdf},
+ volume = {33},
+ year = {2020}
 }
 ```
 Our experiments make heavy use of Chen *et. al's* [torchdiffeq package](https://github.com/rtqichen/torchdiffeq) [2] and we use the rectified Huber unit from Kolter *et. al* [3]. 
